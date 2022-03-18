@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<title>New</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/css/style.css">
+<body>
+
+<div class="container">
+  <div class="bar black">
+    <button class="tab red" onclick="getElement(event,'text')">text</button>
+    <button class="tab" onclick="getElement(event,'image')">image</button>
+    <button class="tab" onclick="getElement(event,'video')">video</button>
+  </div>
+  
+  <div id="text" class="output" style="background-color: beige;">
+    <h2>University of California, Santa Barbara</h2>
+    <p>The University of California, Santa Barbara (UC Santa Barbara or UCSB) is a public land-grant research university in Santa Barbara-Isla Vista, California, with 23,196 undergraduates and 2,983 graduate students enrolled in 2021-2022.[10] It is part of the University of California 10-university system.[11] Tracing its roots back to 1891 as an independent teachers' college, UCSB joined the University of California system in 1944, and is the third-oldest undergraduate campus in the system, after UC Berkeley and UCLA.
+
+Located on a WWII-era Marine air station,[12] UC Santa Barbara is organized into three undergraduate colleges (College of Letters and Science, College of Engineering, College of Creative Studies) and two graduate schools (Gevirtz Graduate School of Education and Bren School of Environmental Science & Management), offering more than 200 degrees and programs. The university has 10 national research centers,[13] including the Kavli Institute for Theoretical Physics[14] and the Center for Control, Dynamical-Systems and Computation.[15] UCSB has various organized research units (ORUs) researching evolutionary psychology, neuroscience, marine science, and more. According to the National Science Foundation, UC Santa Barbara spent $235 million on research and development in fiscal year 2018, ranking it 100th in the nation.[16] UCSB was the No. 3 host on the ARPAnet and was elected to the Association of American Universities in 1995.
+
+Current UCSB faculty includes six Nobel Prize laureates, one Fields Medalist, 39 members of the National Academy of Sciences, 27 members of the National Academy of Engineering, and 34 members of the American Academy of Arts and Sciences.[17] UCSB is classified among "R1: Doctoral Universities – Very high research activity" and is regarded as a Public Ivy.[18] The faculty also includes two Academy and Emmy Award winners, and recipients of a Millennium Technology Prize, an IEEE Medal of Honor, a National Medal of Technology and Innovation and a Breakthrough Prize in Fundamental Physics.</p>
+  </div>
+
+  <div id="image" class="output" style="display:none">
+    <img src="/img/img.jpg" alt="Nature"> 
+  </div>
+
+  <div id="video" class="output" style="display:none">
+    <iframe width="400" height="250" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+    </iframe>
+  </div>
+</div>
+<script src="app.js"></script>
+
+</body>
+</html>

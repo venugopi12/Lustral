@@ -1,0 +1,32 @@
+*{
+  background-color: aquamarine;
+}
+.container{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+}
+button{
+  background-color: cadetblue;
+  border-radius: 5px;
+  color: aliceblue;
+}
+button:hover{
+  background-color: aliceblue;
+  color: black;
+  cursor: pointer;
+}
+img{
+  width: 500px;
+  height: 250px;
+  padding: 5px;
+  background-color: beige;
+}
+
+iframe{
+  background-color: beige;
+}
+h2,p{
+  background-color: beige;
+}
